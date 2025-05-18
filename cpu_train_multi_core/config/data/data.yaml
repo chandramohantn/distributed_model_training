@@ -1,0 +1,6 @@
+data_dir: ../fashion_mnist_data/
+train_batch_size: 4
+validation_batch_size: 4
+shuffle_train_data: True
+shuffle_validation_data: False
+worker_count: 2

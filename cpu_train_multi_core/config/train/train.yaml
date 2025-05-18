@@ -1,0 +1,6 @@
+epochs: 20
+learning_rate: 0.001
+early_stopping_patience: 5
+checkpoint_dir: ./checkpoints
+resume_from_checkpoint: null
+log_dir: ../runs

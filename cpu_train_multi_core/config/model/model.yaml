@@ -1,0 +1,3 @@
+name: GarmentClassifier
+input_channels: 1
+output_classes: 10
