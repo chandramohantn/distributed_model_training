@@ -1,0 +1,5 @@
+.DS_Store
+models/
+runs/
+fashion_mnist_data/
+.env
