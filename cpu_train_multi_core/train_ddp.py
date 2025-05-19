@@ -23,6 +23,7 @@ def train_model(rank, world_size, config):
 
 @hydra.main(version_base=None, config_path="config", config_name="config")
 def main(config: DictConfig):
+    print(config)
     world_size = 3
     mp.spawn(
         train_model, args=(world_size, config), nprocs=world_size, join=True
